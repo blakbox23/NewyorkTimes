@@ -7,6 +7,7 @@
 nav{
     position:sticky;
     top:0;
+    z-index: 1;
     background-color: white;
     height:43px;
     border:1px solid rgb(250, 222, 222);
@@ -88,6 +89,8 @@ main{
 .share{
     max-width: 600px;
     margin: 30px auto 30px;   
+    display:flex;
+    align-items:center;
 }
 
 .share span, .social-share span{
@@ -95,6 +98,11 @@ main{
     border-radius: 50%;
     background-color: rgb(245, 224, 224);
     margin-right: 20px;
+}
+
+.share img, .social-share img{
+    width:15px;
+    height:15px;
 }
 
 .header-pic img{
@@ -189,9 +197,13 @@ iframe{
     font-size: small;
 }
 
-.theory-chart img{
+.theory-chart{
     width: 150%;
     margin-left: -150px;
+    margin-top: 3rem;
+}
+.theory-chart img{
+    width: 100%;
 }
 
 
@@ -242,11 +254,19 @@ aside p{
 footer{
     height: 78vh;
     width: 94vw;
-    margin:2rem auto 0;
-    
+    margin:2rem auto 0;   
     font-family:nyt-franklin, helvetica, arial, sans-serif;
 }
 
+footer hr, aside hr{
+    color: rgb(245, 237, 237);
+}
+
+#to-home{
+    font-size:.7rem; 
+    color:blue;
+    cursor:pointer;
+}
 
 .footer-header{
     display:flex;
