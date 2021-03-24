@@ -7,8 +7,8 @@ Semantic HTML is used for the mark-up of this project. Elements are positioned u
 
 ## Bult With
 
--HTML 5
--CSS 3
+- HTML 5
+- CSS 3
 
 ## Live Demo
 
