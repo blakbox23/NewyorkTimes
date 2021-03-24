@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+/* Utilitiy class flex */
+.flex {
+  display: flex;
+}
+
 /* NAV */
 nav {
   position: sticky;
@@ -11,16 +16,14 @@ nav {
   background-color: white;
   height: 43px;
   border: 1px solid rgb(250, 222, 222);
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.first {
-  display: flex;
-}
+
 .first div {
   margin-left: 18px;
 }
+
 .nav-title {
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -55,172 +58,10 @@ nav {
   padding: 11px 12px 8px;
   text-transform: uppercase;
 }
+
 /* END OF NAV */
 
-/* HEADER SECTION */
-.header-title h1 {
-  color: #121212;
-  font-family: georgia, 'times new roman', times, serif;
-  font-weight: 700;
-  font-style: italic;
-  max-width: 600px;
-  margin: auto;
-  line-height: 1.5;
-  font-size: 2.1rem;
-  margin-bottom: 1rem;
-}
-
-#header-line {
-  max-width: 600px;
-  margin: auto;
-  color: rgb(235, 224, 224);
-}
-
-/* Main part of the article */
-main {
-  padding-top: 4rem;
-}
-.header-section {
-  width: 80vw;
-  margin: auto;
-}
-
-.share {
-  max-width: 600px;
-  margin: 30px auto 30px;
-  display: flex;
-  align-items: center;
-}
-
-.share span,
-.social-share span {
-  padding: 5px;
-  border-radius: 50%;
-  background-color: rgb(245, 224, 224);
-  margin-right: 20px;
-}
-
-.share img,
-.social-share img {
-  width: 15px;
-  height: 15px;
-}
-
-.header-pic img {
-  max-width: 100%;
-}
-
-.cap {
-  color: grey;
-}
-.credit {
-  color: grey;
-  font-size: 0.85rem;
-  margin-bottom: 2rem;
-}
-figure {
-  margin-bottom: 2rem;
-}
-/* END OF HEADER SECTION */
-
-/* ARTICLE SECTION */
-.article-body {
-  width: 50vw;
-  margin: auto;
-}
-#author {
-  font-size: 0.9rem;
-  margin-top: 2rem;
-  margin-bottom: 0.9rem;
-  font-weight: bold;
-  font-family: sans-serif;
-  color: #111;
-}
-#date {
-  margin-bottom: 2rem;
-}
-.article-text p {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
-.article-text iframe {
-  width: 100%;
-}
-/* ARTICLE SECTION */
-
-.cta {
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-.cta p {
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.001em;
-}
-.cta .blue {
-  color: rgb(8, 8, 109);
-}
-.cta hr {
-  width: 4rem;
-  margin: 1rem auto;
-  color: white;
-}
-
-.cta2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem 0;
-  padding-top: 1rem;
-  border-top: 1px solid grey;
-}
-.cta2 button {
-  padding: 0 10px;
-  min-width: 110px;
-  max-height: 2rem;
-  background: transparent;
-  border: 1px solid black;
-  font-weight: bold;
-}
-
-iframe {
-  height: 315px;
-}
-.article-end {
-  margin-top: 20px;
-}
-.article-end p {
-  font-size: small;
-}
-
-.theory-chart {
-  width: 150%;
-  margin-left: -150px;
-  margin-top: 3rem;
-}
-.theory-chart img {
-  width: 100%;
-}
-
-.comments-share {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
-  padding-bottom: 3rem;
-}
-.comments-button {
-  padding: 10px 100px;
-  background-color: rgb(90, 130, 169);
-  color: white;
-  border-radius: 3px;
-  text-transform: uppercase;
-  border: 1px solid rgb(50, 104, 145);
-  letter-spacing: 0.05em;
-}
+/* ASIDE SECTION */
 
 aside {
   position: absolute;
@@ -245,6 +86,188 @@ aside p {
   color: grey;
 }
 
+/* END OF ASIDE SECTION */
+
+/* HEADER SECTION */
+
+.header-title h1 {
+  color: #121212;
+  font-family: georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+#header-line {
+  max-width: 600px;
+  margin: auto;
+  color: rgb(235, 224, 224);
+}
+
+/* Main part of the article */
+
+main {
+  padding-top: 4rem;
+}
+
+.header-section {
+  width: 80vw;
+  margin: auto;
+}
+
+.share {
+  max-width: 600px;
+  margin: 30px auto 30px;
+  align-items: center;
+}
+
+.share span,
+.social-share span {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(245, 224, 224);
+  margin-right: 20px;
+}
+
+.share img,
+.social-share img {
+  width: 15px;
+  height: 15px;
+}
+
+.header-pic img {
+  max-width: 100%;
+}
+
+.cap {
+  color: grey;
+}
+
+.credit {
+  color: grey;
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
+
+figure {
+  margin-bottom: 2rem;
+}
+
+/* END OF HEADER SECTION */
+
+/* ARTICLE SECTION */
+.article-body {
+  width: 50vw;
+  margin: auto;
+}
+
+#author {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  margin-bottom: 0.9rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #111;
+}
+
+#date {
+  margin-bottom: 2rem;
+}
+
+.article-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.article-text iframe {
+  width: 100%;
+}
+
+/* ARTICLE SECTION */
+
+.cta {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.cta p {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.001em;
+}
+
+.cta .blue {
+  color: rgb(8, 8, 109);
+}
+
+.cta hr {
+  width: 4rem;
+  margin: 1rem auto;
+  color: white;
+}
+
+.cta2 {
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid grey;
+}
+
+.cta2 button {
+  padding: 0 10px;
+  min-width: 110px;
+  max-height: 2rem;
+  background: transparent;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+iframe {
+  height: 315px;
+}
+
+.article-end {
+  margin-top: 20px;
+}
+
+.article-end p {
+  font-size: small;
+}
+
+.theory-chart {
+  width: 150%;
+  margin-left: -150px;
+  margin-top: 3rem;
+}
+
+.theory-chart img {
+  width: 100%;
+}
+
+.comments-share {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.comments-button {
+  padding: 10px 100px;
+  background-color: rgb(90, 130, 169);
+  color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: 1px solid rgb(50, 104, 145);
+  letter-spacing: 0.05em;
+}
+
 /* footer */
 footer {
   height: 78vh;
@@ -265,7 +288,6 @@ aside hr {
 }
 
 .footer-header {
-  display: flex;
   justify-content: space-between;
   height: 30px;
   padding-top: 10px;
@@ -277,7 +299,6 @@ aside hr {
   text-transform: uppercase !important;
 }
 .footer-body {
-  display: flex;
   gap: 4rem;
   margin-left: 20px;
 }
@@ -294,7 +315,6 @@ aside hr {
 }
 
 .subscribe {
-  display: flex;
   flex-direction: column;
   margin-top: 0.7rem;
   margin-left: 3rem;
@@ -308,6 +328,7 @@ aside hr {
   margin-top: 0.7rem;
   margin-bottom: 10px;
 }
+
 .last p {
   line-height: 0.8;
   font-size: 0.7rem;
@@ -327,8 +348,6 @@ aside hr {
 }
 
 .footer2-list {
-  display: flex;
-
   justify-content: space-evenly;
   list-style: none;
   padding-top: 10px;
