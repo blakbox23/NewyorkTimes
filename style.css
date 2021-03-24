@@ -3,10 +3,13 @@
   padding: 0;
 }
 
-/* Utilitiy class flex */
 .flex {
   display: flex;
 }
+
+hr {
+    color: rgb(245, 237, 237);
+  }
 
 /* NAV */
 nav {
@@ -40,6 +43,7 @@ nav {
 .third {
   margin-right: 20px;
 }
+
 .third div {
   margin-right: 10px;
 }
@@ -156,6 +160,9 @@ main {
 figure {
   margin-bottom: 2rem;
 }
+figure hr{
+    width: 100px;
+}
 
 /* END OF HEADER SECTION */
 
@@ -182,10 +189,6 @@ figure {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 1rem;
-}
-
-.article-text iframe {
-  width: 100%;
 }
 
 /* ARTICLE SECTION */
@@ -231,7 +234,11 @@ figure {
 
 iframe {
   height: 315px;
+  border:none;
 }
+.article-text iframe {
+    width: 100%;
+  }
 
 .article-end {
   margin-top: 20px;
@@ -276,11 +283,6 @@ footer {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-footer hr,
-aside hr {
-  color: rgb(245, 237, 237);
-}
-
 #to-home {
   font-size: 0.7rem;
   color: blue;
@@ -296,8 +298,8 @@ aside hr {
 
 .footer-title {
   font-weight: bold;
-  text-transform: uppercase !important;
 }
+
 .footer-body {
   gap: 4rem;
   margin-left: 20px;
@@ -320,7 +322,6 @@ aside hr {
   margin-left: 3rem;
   padding-top: 0;
   padding-left: 10px;
-
   border-left: 1px solid grey;
 }
 
