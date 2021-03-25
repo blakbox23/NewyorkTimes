@@ -237,11 +237,6 @@ figure hr {
   cursor: pointer;
 }
 
-.cta2 button:hover {
-  background: #000;
-  color: #fff;
-}
-
 iframe {
   height: 315px;
   border: none;
@@ -328,6 +323,7 @@ iframe {
 .sm-image-text {
   margin: 10px;
 }
+
 .border {
   border: 1px solid grey;
   margin-bottom: 30px;
@@ -356,6 +352,7 @@ iframe {
   font-family: sans-serif;
   font-size: 0.95rem;
 }
+
 .extra-cta {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 45px;
@@ -363,6 +360,7 @@ iframe {
   font-size: 0.9rem;
   color: rgb(50, 104, 145);
 }
+
 #popular {
   width: 26%;
   border-top: 1px solid black;
