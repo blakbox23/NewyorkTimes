@@ -37,3 +37,8 @@ Give a ⭐️ if you like this project!
 - etc
 
 
+## 📝 License
+
+This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
+
+
