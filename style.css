@@ -7,6 +7,12 @@
   display: flex;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 12px;
+}
+
 hr {
   color: rgb(245, 237, 237);
 }
@@ -254,12 +260,34 @@ iframe {
   font-size: small;
 }
 
-.theory-chart {
-  width: 150%;
+.theory{
+  width: 100%;
   margin-left: -150px;
   margin-top: 3rem;
 }
 
+#theory-text{
+  width: 150%;
+  color: grey;
+}
+
+.theory-chart {
+  min-width: 150%;
+ 
+  margin-top: 3rem;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.grid-element{
+margin-top: 150px;
+}
+
+.bold{
+  font-size: .85rem;
+}
 .theory-chart img {
   width: 100%;
 }
@@ -287,6 +315,15 @@ iframe {
 }
 
 /* Extra section */
+
+.newsec{
+  justify-content: space-evenly;
+}
+
+.column{
+  flex-direction: column;
+}
+
 .extra {
   margin-left: 30px;
 }
@@ -367,15 +404,13 @@ iframe {
 }
 
 .popular {
-  width: 26%;
+  width: 340px;
   border-top: 1px solid black;
-  position: absolute;
-  left: 71vw;
-  top: 820.5vh;
 }
 
 .popular p {
-  margin: 10px 0;
+  margin: 12px 0;
+  width: 340px;
   font-size: 1.1rem;
   cursor: pointer;
 }
@@ -384,7 +419,6 @@ iframe {
   font-weight: bold;
   margin: 10px 5px;
   font-size: 1rem;
-  width: 67vw;
   justify-content: space-between;
   cursor: pointer;
   font-family: sans-serif;
