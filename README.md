@@ -1,7 +1,7 @@
 # NewyorkTimes
 Project 1: The positioning and floating elements project as described in the Odin project.
 
-![screenshot](./images\NYTproj.PNG)
+![screenshot](./images/NYTproj.PNG)
 ![screenshot](./app_screenshot.png)
 
 Semantic HTML is used for the mark-up of this project. Elements are positioned using flexbox as well as floats.
@@ -24,7 +24,7 @@ Semantic HTML is used for the mark-up of this project. Elements are positioned u
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/blakbox23/NewyorkTimes/issues).
 
 ## Show your support
 
@@ -36,6 +36,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
 
-This project is [MIT](lic.url) licensed.
