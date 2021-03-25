@@ -207,7 +207,6 @@ figure hr {
   font-family: sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.001em;
-
 }
 
 .cta .blue {
@@ -238,9 +237,9 @@ figure hr {
   cursor: pointer;
 }
 
-.cta2 button:hover{
-  background:#000;
-  color:#fff;
+.cta2 button:hover {
+  background: #000;
+  color: #fff;
 }
 
 iframe {
@@ -297,7 +296,7 @@ iframe {
 }
 
 .grid-card-section {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 67vw;
@@ -307,64 +306,64 @@ iframe {
   width: 270px;
   height: 270px;
   margin: 5px;
-  font-size:1.2rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
 .cards img {
-  width: 100%
+  width: 100%;
 }
 
-.sm-image{
+.sm-image {
   justify-content: space-between;
   padding: 10px;
 }
 
-.sm-image img{
+.sm-image img {
   width: 80px;
   height: 80px;
   margin-bottom: 0;
 }
 
-.sm-image-text{
+.sm-image-text {
   margin: 10px;
 }
-.border{
-border: 1px solid grey;
-margin-bottom: 30px;
+.border {
+  border: 1px solid grey;
+  margin-bottom: 30px;
 }
 
-.sm-image button{
+.sm-image button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: transparent;
   border: 1.5px solid black;
   font-weight: bold;
-  font-size:1.1rem;
+  font-size: 1.1rem;
 }
 
-.duration{
-  font-size: .8rem;
+.duration {
+  font-size: 0.8rem;
   margin-top: 0;
 }
 
-.sm-title{
+.sm-title {
   font-weight: bold;
 }
 
-.sm-para{
+.sm-para {
   font-family: sans-serif;
-  font-size: .96rem;
+  font-size: 0.96rem;
 }
-.extra-cta{
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- margin-top: 45px;
- font-weight: bold;
- font-size: .9rem;
- color: rgb(50, 104, 145);
+.extra-cta {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 45px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: rgb(50, 104, 145);
 }
-#popular{
+#popular {
   width: 26%;
   border-top: 1px solid black;
   position: absolute;
@@ -378,7 +377,7 @@ margin-bottom: 30px;
   cursor: pointer;
 }
 
-.space-title{
+.space-title {
   font-weight: bold;
   margin: 10px 5px;
   font-size: 1rem;
@@ -388,9 +387,9 @@ margin-bottom: 30px;
   font-family: sans-serif;
 }
 
-#dont-show{
-  font-size: .85rem;
-  color:grey;
+#dont-show {
+  font-size: 0.85rem;
+  color: grey;
   font-family: sans-serif;
 }
 
