@@ -366,7 +366,7 @@ iframe {
   color: rgb(50, 104, 145);
 }
 
-#popular {
+.popular {
   width: 26%;
   border-top: 1px solid black;
   position: absolute;
@@ -374,7 +374,7 @@ iframe {
   top: 820.5vh;
 }
 
-#popular p {
+.popular p {
   margin: 10px 0;
   font-size: 1.1rem;
   cursor: pointer;
@@ -450,8 +450,6 @@ footer {
   margin-top: 0.7rem;
   margin-bottom: 10px;
 }
-
-
 
 .logo {
   width: 13rem;
