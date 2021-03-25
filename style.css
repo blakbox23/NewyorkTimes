@@ -135,6 +135,7 @@ main {
   border-radius: 50%;
   background-color: rgb(245, 224, 224);
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .share img,
@@ -145,6 +146,7 @@ main {
 
 .header-pic img {
   max-width: 100%;
+  cursor: pointer;
 }
 
 .cap {
@@ -205,10 +207,12 @@ figure hr {
   font-family: sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.001em;
+
 }
 
 .cta .blue {
   color: rgb(8, 8, 109);
+  cursor: pointer;
 }
 
 .cta hr {
@@ -231,6 +235,12 @@ figure hr {
   background: transparent;
   border: 1px solid black;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.cta2 button:hover{
+  background:#000;
+  color:#fff;
 }
 
 iframe {
@@ -275,6 +285,113 @@ iframe {
   text-transform: uppercase;
   border: 1px solid rgb(50, 104, 145);
   letter-spacing: 0.05em;
+}
+
+/* Extra section */
+.extra {
+  margin-left: 30px;
+}
+
+.top {
+  width: 67vw;
+}
+
+.grid-card-section {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 67vw;
+}
+
+.cards {
+  width: 270px;
+  height: 270px;
+  margin: 5px;
+  font-size:1.2rem;
+  cursor: pointer;
+}
+
+.cards img {
+  width: 100%
+}
+
+.sm-image{
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sm-image img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0;
+}
+
+.sm-image-text{
+  margin: 10px;
+}
+.border{
+border: 1px solid grey;
+margin-bottom: 30px;
+}
+
+.sm-image button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1.5px solid black;
+  font-weight: bold;
+  font-size:1.1rem;
+}
+
+.duration{
+  font-size: .8rem;
+  margin-top: 0;
+}
+
+.sm-title{
+  font-weight: bold;
+}
+
+.sm-para{
+  font-family: sans-serif;
+  font-size: .96rem;
+}
+.extra-cta{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-top: 45px;
+ font-weight: bold;
+ font-size: .9rem;
+ color: rgb(50, 104, 145);
+}
+#popular{
+  width: 26%;
+  border-top: 1px solid black;
+  position: absolute;
+  left: 71vw;
+  top: 820.5vh;
+}
+
+#popular p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.space-title{
+  font-weight: bold;
+  margin: 10px 5px;
+  font-size: 1rem;
+  width: 67vw;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+#dont-show{
+  font-size: .85rem;
+  color:grey;
+  font-family: sans-serif;
 }
 
 /* footer */
