@@ -457,6 +457,20 @@ form [value="neutral"]{
   margin-bottom: 20px;
 }
 
+[type="submit"]{
+  margin: 1rem auto;
+  width: 150px;
+  height: 2rem;
+  font-size: 1.1rem;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+[type="submit"]:hover{
+  background-color: lightgreen;
+}
+
 /* footer */
 footer {
   height: 78vh;

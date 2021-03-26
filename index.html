@@ -376,18 +376,19 @@
       </div>
       <form action="#">
         <label for="name">Name</label><br>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name" maxlength="20"  required><br>
         <label for="email">E-mail</label><br>
-        <input type="text" id="email" name="email"><br>
+        <input type="text" id="email" name="email" maxlength="20" required><br>
         <label for="comment"> Comment <br>
-        <textarea id="comment" name="comment">Add your comment here...</textarea><br>
+        <textarea id="comment" name="comment" maxlength="250" required>Add your comment here...</textarea><br>
           </label>
         <label>What is your overall opinion abou this article <br>
         <input type="radio" name="opinion" value="Positive" checked> Positive<br>
         <input type="radio" name="opinion" value="Negative"> Negative<br>
         <input type="radio" name="opinion" value="Neutral"> Neutral<br> <br>
       </label>
-      <input type="checkbox" name="subscription" value="subscribe"> I want to subscribe to the Newsletter.
+      <input type="checkbox" name="subscription" value="subscribe"> I want to subscribe to the Newsletter. <br>
+      <input type="submit" value="Send">
       </form>
     </section>
   </main>
