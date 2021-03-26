@@ -382,11 +382,10 @@
         <label for="comment"> Comment <br>
         <textarea id="comment" name="comment" maxlength="250" required>Add your comment here...</textarea><br>
           </label>
-        <label>What is your overall opinion abou this article <br>
-        <input type="radio" name="opinion" value="Positive" checked> Positive<br>
-        <input type="radio" name="opinion" value="Negative"> Negative<br>
-        <input type="radio" name="opinion" value="Neutral"> Neutral<br> <br>
-      </label>
+        <label for="opinion">What is your overall opinion abou this article <br>
+        <input type="radio" name="opinion" id="opinion" value="Positive" checked> Positive<br>
+        <input type="radio" name="opinion" id="opinion" value="Negative"> Negative<br>
+        <input type="radio" name="opinion" id="opinion" value="Neutral"> Neutral<br> <br>
       <input type="checkbox" name="subscription" value="subscribe"> I want to subscribe to the Newsletter. <br>
       <input type="submit" value="Send">
       </form>
@@ -394,7 +393,7 @@
   </main>
 
 
-  <section class="flex newsec">
+  <div class="flex newsec">
     <div class="flex column">
       <div class="extra">
         <hr class="top">
@@ -536,7 +535,7 @@
       <hr>
       <p>‘I Cry on Tuesdays and Fridays’</p>
     </div>
-  </section>
+  </div>
 
 
   <footer>

@@ -441,23 +441,23 @@ iframe {
   margin: 1rem auto 1.2rem;
 }
 
-[type="text"]{
+[type="text"] {
   width: 450px;
   height: 30px;
   margin: 7px 0 20px;
 }
 
-textarea{
+textarea {
   width: 450px;
   height: 140px;
   margin: 7px 0 20px;
 }
 
-form [value="neutral"]{
+form [value="neutral"] {
   margin-bottom: 20px;
 }
 
-[type="submit"]{
+[type="submit"] {
   margin: 1rem auto;
   width: 150px;
   height: 2rem;
@@ -467,7 +467,7 @@ form [value="neutral"]{
   border: none;
 }
 
-[type="submit"]:hover{
+[type="submit"]:hover {
   background-color: lightgreen;
 }
 
