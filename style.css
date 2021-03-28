@@ -473,7 +473,6 @@ footer {
 
 .subscribe {
   flex-direction: column;
-  margin-top: 0.7rem;
   margin-left: 3rem;
   padding-top: 0;
   padding-left: 10px;
@@ -481,7 +480,7 @@ footer {
 }
 
 .last {
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
   margin-bottom: 10px;
 }
 
