@@ -496,6 +496,11 @@ footer {
   color: grey;
   font-size: 0.7rem;
   margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
 }
 
 .footer2-list {
